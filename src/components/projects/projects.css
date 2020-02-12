@@ -1,0 +1,72 @@
+#id_projects{
+    background-color: #313131;
+    height: 120vh;
+    padding: 1vw;
+    color: black;
+    margin-top: 5vh;
+}
+.proj_sections{
+   
+    font-family: 'Rajdhani', sans-serif;
+    width:100%;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    margin-top: 10vh;
+}
+.card1{
+    padding: 5vw;
+}
+.card2{
+    padding: 5vw;
+}
+@media only screen and (max-width: 600px) {
+    #id_projects{
+        background-color: #313131;
+        height: 192vh;
+        padding: 1vw;
+        color: black;
+    }
+  }
+  .btn_brown{
+background-color: #313131;
+border:none;
+text-decoration: none;
+outline-color: #313131;
+  }
+  .btn_brown a{
+      text-decoration: none;
+  }
+  .btn_brown:hover{
+      color:#313131;
+      background: #929292;
+      border:none;
+text-decoration: none !important;
+outline-color: #313131;
+  }
+  .btn_brown:active{
+    outline-color: #313131;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .5);
+}
+.sr-only{
+    color: #313131;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+
+    background-color: #929292;
+    height: 7vh;
+    width: 3vw;
+
+}
+.card_title{
+    font-family: 'Fondamento', cursive;
+    font-size: 25px;
+}
+.card_text{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+}

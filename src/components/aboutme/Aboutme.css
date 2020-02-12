@@ -1,0 +1,24 @@
+.Main_Image{
+    height: 10vh;
+    position: relative;
+    margin: auto;
+}
+.newabout_sec{
+    background-image: url(./../../Images/CoffeeAndCoding.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 0.9;
+    -webkit-background-size: cover !important;
+}
+.typed{
+    margin: auto;
+    height: 10vh;
+    font-size:50px;
+    font-family: 'Poiret One', cursive;
+}
+.marginWidhtsetter{
+    margin:auto;
+    width:100%;
+  text-align:center;
+}

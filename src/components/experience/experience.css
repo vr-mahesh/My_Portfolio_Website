@@ -1,0 +1,59 @@
+#id_Experience{
+    color: black;
+    height: 80vh;
+    padding: 3vw;
+    background-color: #f3f3f3;
+}
+#id_ExperienceSection{
+  padding: 1vw;
+    font-size: xx-large;
+    height: 115vh;
+}
+
+.edu_details{
+    margin-top: 3vh;
+}
+.col_name{
+    font-size: x-large;
+}
+.rel_subj{
+    font-size: 16px;
+    margin-top: 2vh;
+}
+.prog_name{
+    font-size: medium;
+    margin-top: 3vh;
+    font-style: italic;
+}
+.isro{
+   
+    margin-top: 5vh;
+    padding: 3vh;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    text-align: center;
+}
+.Accenture{
+  padding: 3vh;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    text-align: center;
+    
+}
+.expp{
+    text-align: center;
+ 
+        font-size: 42px;
+        
+        font-family: 'Rajdhani', sans-serif;
+        color: #313131;
+      
+}
+@media only screen and (max-width: 600px) {
+    #id_Experience{
+        color: black;
+        height: 100vh;
+        padding: 3vw;
+        background-color: #f3f3f3;
+    }
+  }
