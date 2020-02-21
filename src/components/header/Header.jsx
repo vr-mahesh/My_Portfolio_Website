@@ -23,18 +23,16 @@ render(){
  
  
  <Navbar variant="dark" expand="lg">
-  <Navbar.Brand className="Mahesh" href="#home">Mahesh</Navbar.Brand>
+  <Navbar.Brand className="Mahesh" href="#Mahesh" >Mahesh</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className=" navvele mr-auto">
-      <Nav.Link activeClass="active" href="#id_aboutMeDetails_Section">About Me</Nav.Link>
-      <Nav.Link  activeClass="active" href="#skills">Skills</Nav.Link>
-      <Nav.Link activeClass="active" href="#services">What Can I Do</Nav.Link>
-      <Nav.Link activeClass="active" href="#id_projects">Projects</Nav.Link>
-      <Nav.Link activeClass="active" href="#id_Education">Education</Nav.Link>
-      <Nav.Link activeClass="active" href="#id_Experience">Experience</Nav.Link>
-      
-      
+      <Nav.Link activeClass="active"   href="#AboutMe">About Me</Nav.Link>
+      <Nav.Link  activeClass="active" href="#Skills">Skills</Nav.Link>
+      <Nav.Link activeClass="active" href="#Services">What I Can Do</Nav.Link>
+      <Nav.Link activeClass="active" href="#Projects">Projects</Nav.Link>
+      <Nav.Link activeClass="active" href="#Education">Education</Nav.Link>
+      <Nav.Link activeClass="active" href="#Experience">Experience</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

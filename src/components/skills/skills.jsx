@@ -4,7 +4,7 @@ class Skills extends Component{
     render(){
         return(
             <div id="id_Skills" className="row" >
- <div id="skills" class="container text-center bg-grey page-view">
+ <div id="Skills" class="container text-center bg-grey page-view">
     <h2 className="h2_skill" data-aos="fade-left">Skills</h2>
     <hr/>
     <div class="row">
@@ -44,7 +44,7 @@ class Skills extends Component{
         <li data-aos="fade-in"> JavaScript ES6  | jQuery </li><br/>
           <li data-aos="fade-in">REACT | MERN Stack</li><br/>
           <li data-aos="fade-in">RESTful Web Services</li><br/>
-          <li data-aos="fade-in">AJAX</li> <br/>
+          <li data-aos="fade-in">AJAX</li> <br/> <br/>
         </ul><h5><strong data-aos="fade-in">API</strong></h5>
         <ul>
           <li data-aos="fade-in">REST | SOCKET.IO</li>
@@ -60,7 +60,7 @@ class Skills extends Component{
           <li data-aos="fade-left">Visual Studio Code | IDE</li><br/>
           <li data-aos="fade-left">SQL Server Management Studio</li><br/>
           <li data-aos="fade-left">Eclipse IDE</li><br/>
-          <li data-aos="fade-left">JIRA</li><br/>
+          <li data-aos="fade-left">JIRA</li><br/><br/>
         </ul>
         <h5><strong data-aos="fade-left">Operating System</strong></h5>
         <ul>
@@ -76,7 +76,7 @@ class Skills extends Component{
     </div>
   </div>
 
-  <div   id="services" class="container text-center bg-grey page-view">
+  <div   id="Services" class="container text-center bg-grey page-view">
     <h2 className="h2_skill" data-aos="fade-left">Services</h2>
     <h3 className="h2_skill" data-aos="fade-in" >What I can do for you</h3>
     <hr/>
@@ -111,7 +111,6 @@ class Skills extends Component{
         <h5><strong data-aos="fade-right">Client and team</strong></h5>
         <ul>
           <li data-aos="fade-right">Provide clients a detailed workflow of Product</li><br/>
-          <li data-aos="fade-right">Organized Skype Meetings with team</li><br/>
           <li data-aos="fade-right">Work with client to ensure API meets spec</li><br/>
           <li data-aos="fade-right">Provide Documentations for client</li><br/>
         </ul><br/>

@@ -1,4 +1,4 @@
-#id_Education{
+#Education{
     color: black;
     height: 120vh;
     padding: 6vw;
@@ -41,7 +41,7 @@
     font-size: medium;
     margin-top: 5vh;
     font-style: italic;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .BIT{
     margin-top: 5vh;
@@ -58,10 +58,17 @@
     text-align: center;
 }
 @media only screen and (max-width: 600px) {
-    #id_Education{
+    #Education{
         color: black;
        
         height: 160vh;
+        padding: 6vw;
+    }
+  }
+  @media only screen and (max-width: 867px) and (min-width: 600px) {
+    #Education{
+        color: black;
+        height: 146vh;
         padding: 6vw;
     }
   }

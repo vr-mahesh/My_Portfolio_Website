@@ -3,7 +3,7 @@ body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
  background-color: white;
- height: 748vh;
+ height: 734vh;
 }
 canvas {
   display: block;
@@ -11,5 +11,6 @@ canvas {
 } /* ---- particles.js container ---- */
 
 .App{
+ overflow-x: hidden;
  overflow-y: hidden;
 }

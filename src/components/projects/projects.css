@@ -1,4 +1,5 @@
-#id_projects{
+#Projects{
+    
     background-color: #313131;
     height: 120vh;
     padding: 1vw;
@@ -21,9 +22,10 @@
     padding: 5vw;
 }
 @media only screen and (max-width: 600px) {
-    #id_projects{
+    #Projects{
+        
         background-color: #313131;
-        height: 192vh;
+        height: 206vh;
         padding: 1vw;
         color: black;
     }
@@ -47,21 +49,7 @@ outline-color: #313131;
   .btn_brown:active{
     outline-color: #313131;
   }
-  .btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .5);
-}
-.sr-only{
-    color: #313131;
-}
-.carousel-control-prev-icon, .carousel-control-next-icon {
 
-    background-color: #929292;
-    height: 7vh;
-    width: 3vw;
-
-}
 .card_title{
     font-family: 'Fondamento', cursive;
     font-size: 25px;
@@ -70,3 +58,11 @@ outline-color: #313131;
     font-family: 'Dosis', sans-serif;
     font-size: 17px;
 }
+@media only screen and (max-width: 867px) and (min-width: 600px) {
+    #Projects{
+        background-color: #313131;
+        height: 233vh;
+        padding: 1vw;
+        color: black;
+    }
+  }

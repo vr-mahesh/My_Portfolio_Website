@@ -8,7 +8,7 @@ class MoreAboutMe extends Component{
     render(){
         return(
             
-                <div className="row aboutMeDetails_Section"  id="id_aboutMeDetails_Section">
+                <div className="row aboutMeDetails_Section"  id="AboutMe">
 <div className="container cont">
  <div data-aos="fade-zoom-in" className="row">
  <div className="col-md-5 col-sm-12"></div>
@@ -16,8 +16,7 @@ class MoreAboutMe extends Component{
  </div>
  <div className="row morepara">
  <div className="col-md-2 col-sm-12"></div>
- <div data-aos="fade-right" className="col-md-8 col-sm-12 aboutme_body font20 margintop1">Hi, It's Mahesh here, I am Web Developer with 2 years of experience in field of web development in developing Responsive, Interactive and Dynamic
-websites.I am Information Systems Graduate Student at Northeastern University with an unabating enthusiasm and passion towards programming and web development.</div>
+ <div data-aos="fade-right" className="col-md-8 col-sm-12 aboutme_body font20 margintop1">Hi, I am Mahesh, Software Engineer with 2 years of experience in the field of web development. I am an industrious, technology driven and customer focused working professional with an unabating enthusiasm and passion towards programming and web development. As a creative web developer, my interests and intent are towards building Responsive, Interactive and Dynamic Web Applications that could help businesses evolve. </div>
  </div>
  <br></br>
  <div className="row morepara">

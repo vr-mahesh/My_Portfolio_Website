@@ -1,4 +1,4 @@
-#id_Experience{
+#Experience{
     color: black;
     height: 80vh;
     padding: 3vw;
@@ -50,9 +50,17 @@
       
 }
 @media only screen and (max-width: 600px) {
-    #id_Experience{
+    #Experience{
         color: black;
         height: 100vh;
+        padding: 3vw;
+        background-color: #f3f3f3;
+    }
+  }
+  @media only screen  and (max-width: 867px) and (min-width: 600px) {
+    #Experience{
+        color: black;
+        height: 102vh;
         padding: 3vw;
         background-color: #f3f3f3;
     }

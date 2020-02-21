@@ -5,7 +5,7 @@ import neu_img from '../../Images/northeastern_university_logo.png';
 class Education extends Component{
     render(){
         return(
-            <div id="id_Education" className="row" >
+            <div id="Education" className="row" >
             <div id="id_EducationSection" className="">
                 <div class="row">
                     <div className="col-md-5"></div>

@@ -33,7 +33,9 @@ ul {
   .topnav {
     overflow: hidden;
   }
-  
+  .Mahesh{
+    border: none !important;
+  }
   .topnav a {
     float: left;
     display: block;

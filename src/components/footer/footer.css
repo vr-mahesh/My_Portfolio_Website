@@ -14,15 +14,17 @@
 .btn_white{
     background-color: white;
     border:none;
+    color: #929292;
     text-decoration: none;
     outline-color: white;
       }
       .btn_white a{
+        color: #929292;
           text-decoration: none;
       }
       .btn_white:hover{
           color:white;
-          background: #929292;
+          background: #313131;
           border:none;
     text-decoration: none !important;
     outline-color: white;
@@ -53,4 +55,12 @@
             background:#313131;
         
         }
+      }
+
+      @media only screen  and (max-width: 867px) and (min-width: 600px) {
+        #footer_id{
+          height: 90vh;
+          background:#313131;
+      
+      }
       }

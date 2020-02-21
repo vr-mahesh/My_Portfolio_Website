@@ -9,7 +9,7 @@ class Aboutme extends Component{
   
     render(){
         return(
-          <div id="AboutmeDIV" className="row newabout_sec">
+          <div id="Mahesh" className="row newabout_sec">
             
           <div  className="marginWidhtsetter">
            <div className="Main_Image"><img src={mahesh} alt="Smiley face" height="200" width="200"/></div>
@@ -17,8 +17,8 @@ class Aboutme extends Component{
            <div className="marginWidhtsetter"><div className="typed">
           <Typed
                  strings={[' Hi, I am Mahesh!',
-           `Hi, I'm Full Stack Web Developer`,
-           `I like Coding and coffee`]
+           ` I'm Full Stack Web Developer`,
+           `I like Coding and Coffee`]
                 }
                  typeSpeed={60}
               showCursor={false}

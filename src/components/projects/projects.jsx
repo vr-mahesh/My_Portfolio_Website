@@ -11,7 +11,7 @@ import card24 from '../../Images/ez4.PNG';
 class Projects extends Component{
 
     render(){
-        return(<div className="row" id="id_projects">
+        return(<div className="row" id="Projects">
             <div  className="row" >
             <div class="proj_sections" >Projects</div>
  <div className="col-md-6 card1">  <Card>
@@ -21,10 +21,10 @@ class Projects extends Component{
     <Card.Text className="card_text">
       Web Application developed on MEAN Stack which helps tourist to explore i.e ( TRAVEL and EXPERIENCE ) by connecting with fellow travllers around same place and also providing Booking events.  
     </Card.Text>
-    <Button data-toggle="modal" className="btn_brown" data-target="#project1" variant="dark">View Project</Button>
+    <Button data-toggle="modal" className="btn_brown" data-target="#project11" variant="dark">View Project</Button>
   </Card.Body>
 </Card></div>
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="project11" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
